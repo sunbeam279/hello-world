@@ -2,10 +2,10 @@ from CodeApi import FateadmApi
 import requests
 from lxml import etree
 def Imgsb(Codeaddr,Codetype):
-    pd_id = "127973"  # 用户中心页可以查询到pd信息
-    pd_key = "GiPEvCxxL5bRziGNpvTPIQkx6eLfIC0B"
-    app_id = "327973"  # 开发者分成用的账号，在开发者中心可以查询到
-    app_key = "ba+Wr4rnMvMhQdu9tn1u4k86fF+/TeNI"
+    pd_id = "13"  # 用户中心页可以查询到pd信息
+    pd_key = "GiPEvCxxNpvTPIQkx6eLfIC0B"
+    app_id = "3273"  # 开发者分成用的账号，在开发者中心可以查询到
+    app_key = "ba+Wr4rnMvMhQdu9tn1hbj6fF+/TeNI"
     pred_type = Codetype
     api = FateadmApi(app_id, app_key, pd_id, pd_key)
     file_name = Codeaddr
